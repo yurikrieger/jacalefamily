@@ -1,0 +1,8 @@
+{
+  "projects": {
+    "default": "sistema-de-frequencias-galt",
+    "galt": "galt-7c6ff"
+  },
+  "targets": {},
+  "etags": {}
+}
