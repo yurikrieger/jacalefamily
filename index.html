@@ -1,0 +1,154 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Jacalé Family</title>
+
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Oxanium:wght@300;400;700&display=swap" rel="stylesheet">
+    
+    <link rel="stylesheet" href="./src/css/reset.css">
+    <link rel="stylesheet" href="./src/css/estilos.css">
+    <link rel="stylesheet" href="./src/css/responsivo.css">
+    
+</head>
+
+<body>
+    <header class="cabecalho">
+        <img class="logo" src="./src/imagens/logo.png" alt="Logo x-men">
+    </header>
+
+    <main class="selecao-de-personagens">
+        <section class="personagens">
+            <h1 class="titulo"> Selecione um comédia </h1>
+            <ul class="lista-de-personagens">
+                <li class="personagem selecionado" id="yooden" data-name="Yooden" data-description="😡 Otaro, você é um otaru viu, seu OTARO! 🤬">
+                    <audio id="audio-yooden">
+                        <source src="/src/audios/audio-yooden.mp3" type="audio/mpeg">
+                    </audio>
+                    <button class="button" onclick="playAudio('audio-yooden')">
+                        <img src="./src/imagens/card-yooden.jpg" alt="JCL Yooden">
+                    </button>                                                            
+                </li>
+
+                <li class="personagem" id="thigas" data-name="Thigas" data-description="Égua porra ói 😮">
+                    <audio id="audio-thigas">
+                        <source src="/src/audios/audio-thigas.mp3" type="audio/mpeg">
+                    </audio> 
+                    <button class="button" onclick="playAudio('audio-thigas')">
+                        <img src="./src/imagens/card-thigas.jpg" alt="JCL Yooden">
+                    </button>                                                         
+                </li>
+
+                <li class="personagem" id="diguel" data-name="Diguel" data-description="&#127925;É que jesus, toin toin, é meu pastor toin toin,
+                TURUM PRUM TOIN TOIN TREEEEU &#127925;">
+                    <audio id="audio-diguel">
+                        <source src="/src/audios/audio-diguel-jesus.mp3" type="audio/mpeg">
+                    </audio>
+                    <button class="button" onclick="playAudio('audio-diguel')">
+                        <img src="./src/imagens/card-diguel.jpg" alt="JCL Diguel">
+                    </button>                    
+                </li>
+
+                <li class="personagem" id="mirim" data-name="Mirim" data-description="🔥AIN É O MIRAS PORRA!🔥">                    
+                    <audio id="audio-miras">
+                        <source src="/src/audios/audio-miras.mp3" type="audio/mpeg">
+                    </audio>
+                    <button class="button" onclick="playAudio('audio-miras')">
+                        <img src="./src/imagens/card-mirim.jpg" alt="JCL Mirim">
+                    </button>
+                </li>
+
+                <li class="personagem" id="han" data-name="Han" data-description=" Moço me mostra a sua glock? 🔫🤤">
+                    
+                    <audio id="audio-han">
+                        <source src="/src/audios/audio-han.mp3" type="audio/mpeg">
+                    </audio>
+                    <button class="button" onclick="playAudio('audio-han')">
+                        <img src="./src/imagens/card-han.jpg" alt="Im Han">
+                    </button>
+                    
+                </li>
+
+                <li class="personagem" id="coringa" data-name="Coringa" data-description=" &#127925;Bate com força e com talento senta a piroca com a bunda mexendo, nananana.&#127925;">                    
+                    <audio id="audio-lohan">
+                        <source src="/src/audios/audio-lohan.mp3" type="audio/mpeg">
+                    </audio>
+                    <button class="button" onclick="playAudio('audio-lohan')">
+                        <img src="./src/imagens/card-coringa.jpg" alt="JCL Coringa">
+                    </button>
+                </li>
+
+                <li class="personagem" id="fidelis" data-name="Fidelis" data-description="  Bao, falou desgraça! 🏃‍♂️">                    
+                    <audio id="audio-fidelis">
+                        <source src="/src/audios/audio-fidelis.mp3" type="audio/mpeg">
+                    </audio>
+                    <button class="button" onclick="playAudio('audio-fidelis')">
+                        <img src="./src/imagens/card-fidelis.jpg" alt="JCL Fidelis">
+                    </button>                    
+                </li>                
+
+                <li class="personagem" id="digas" data-name="Diguel Lilia" data-description="Ó u pototo 🐎">
+                    <audio id="audio-digas">
+                        <source src="/src/audios/audio-digas.mp3" type="audio/mpeg">
+                    </audio>
+                    <button class="button" onclick="playAudio('audio-digas')">
+                        <img src="./src/imagens/card-digas.jpg" alt="JCL Diguel">
+                    </button>
+                </li>
+
+                <li class="personagem" id="yuri" data-name="Yooden Vi" data-description="A Beluga NhehEHeHehE 🐬">
+                    <audio id="audio-yuri">
+                        <source src="/src/audios/audio-yuri.mp3" type="audio/mpeg">
+                    </audio>
+                    <button class="button" onclick="playAudio('audio-yuri')">
+                        <img src="./src/imagens/card-yuri.jpg" alt="JCL Yooden Vi">
+                    </button>
+                </li>
+                
+                <li class="personagem" id="dunas" data-name="Dunas" data-description="AAAIII KRL FDP!!!!! 😱">                    
+                    <audio id="audio-dunas-riven">
+                        <source src="/src/audios/audio-dunas-riven.mp3" type="audio/mpeg">
+                    </audio>
+                    <button class="button" onclick="playAudio('audio-dunas-riven')">
+                        <img src="./src/imagens/card-dunas.jpg" alt="JCL Dunas">
+                    </button>
+                </li>
+
+                <li class="personagem" id="zanidys" data-name="Dunas Akali KDA" data-description="BABY BABY IGALIRICERIMAGIC 😎">
+                    
+                    <audio id="audio-dunas-akali1">
+                        <source src="/src/audios/audio-dunas-akali1.mp3" type="audio/mpeg">
+                    </audio>
+                    <button class="button" onclick="playAudio('audio-dunas-akali1')">
+                        <img src="./src/imagens/card-zanidys.jpg" alt="JCL Zanidys">
+                    </button>
+                </li>
+
+                <li class="personagem" id="duin" data-name="Dunas Akali True Damage" data-description="É o Dunas, não tem jeito 😏">
+                    
+                    <audio id="audio-dunas-akali2">
+                        <source src="/src/audios/audio-dunas-akali2.mp3" type="audio/mpeg">
+                    </audio>
+                    <button class="button" onclick="playAudio('audio-dunas-akali2')">
+                        <img src="./src/imagens/card-duin.jpg" alt="JCL Dunas">
+                    </button>                     
+                </li>
+
+            </ul>
+        </section>
+        <section class="personagem-selecionado">
+            <img class="personagem-grande" src="./src/imagens/card-yooden.png" alt="Personagem Selecionado"><br>
+            <div class="informacoes-personagem">               
+                <h2 class="nome-personagem" id="nome-personagem"> Yooden </h2>
+                <p class="descricao-personagem" id="descricao-personagem">
+                </p>
+            </div>
+        </section>
+    </main>
+    <script src="./src/js/index.js"></script>
+</body>
+</html>
